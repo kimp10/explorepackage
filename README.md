@@ -9,7 +9,7 @@ So this is to just be a simple example of how to create and consume a package
  'python setup.py sdist'
 
  ##installing this package from github
- 'pip install git+https://github.com/james-Leslie/example-python-packages.git'
+ 'pip install git+https://github.com/kimp10/explorepackage.git'
 
  ##updating this package from github
- 'pip install --upgrade git+https://github.comJames-leslie/example-python-package.git'
+ 'pip install --upgrade git+https://github.com/kimp10/explorepackage.git'
