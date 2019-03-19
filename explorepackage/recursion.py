@@ -23,21 +23,22 @@ def fibonacci(n):
     else:
         return fibonacci(n-1)+fibonacci(n-2)
 
-print(fibonacci(0))
-print(fibonacci(1))
-print(fibonacci(3))
-print(fibonacci(8))
+#print(fibonacci(0))
+#print(fibonacci(1))
+#print(fibonacci(3))
+#print(fibonacci(8))
 
 
 def factorial(n):
+    x = 1
+    y = 2
 
-    '''Return n!'''
-    if n == 1:
-        return n
-    else:
-        return n * factorial(n-1) # <<-- Notice how the function does factorial(n-1) within factorial(n)!
+    while y <= n:
+        x = x * y
+        y += 1
+    return x
 
-#print(factorial(5))
+print(factorial(5))
 
 
 
